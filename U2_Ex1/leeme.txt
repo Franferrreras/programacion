@@ -1,0 +1,6 @@
+He puesto la carpeta del examen al principio del todo porque, por el correo que me enviaste,
+entendí que los anteriores ejercicios entregables no los encontrastes.
+
+pd: están en su correspondiente carpeta, los entregables de pseudocodigo estáne la cartepa de pseudocódigo 
+y los entregables de java están en la carpeta "programación_estructura_java"
+
