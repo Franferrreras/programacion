@@ -29,7 +29,14 @@ public class T4_ex_adicionales4_caballo {
 
             for (int c = 0; c < tablero[f].length ; c++) {
 
-                if ( (f == cabf-1 && c == cabc-2 || c == cabc-1  && f == cabf-2 || c == cabc+1 && f == cabf-2 || c == cabc+2 && f == cabf-1 || c == cabc-2 && f == cabf+1 || c == cabc-1 && f == cabf+2 || c == cabc+1 && f == cabf+2 || c == cabc+2 && f == cabf+1) && c<=7 && f<=7 ) {
+                if ( (  c == cabc-2 && f == cabf-1 ||
+                        c == cabc-1 && f == cabf-2 ||
+                        c == cabc+1 && f == cabf-2 ||
+                        c == cabc+2 && f == cabf-1 ||
+                        c == cabc-2 && f == cabf+1 ||
+                        c == cabc-1 && f == cabf+2 ||
+                        c == cabc+1 && f == cabf+2 ||
+                        c == cabc+2 && f == cabf+1) && c<=7 && f<=7 && f>=0 && c>=0) {
 
                     tablero[f][c] ="✠";//✠
                 }else {
