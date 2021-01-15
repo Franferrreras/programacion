@@ -8,4 +8,8 @@ public class Personas {
     private int edad;
 
 
+    public Personas() {
+        nombre_completo = "";
+        DNI = "";
+    }
 }
