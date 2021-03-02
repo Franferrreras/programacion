@@ -32,5 +32,16 @@ public class Main {
         for (Cliente c : clientes) {
             System.out.println(c);
         }
+
+        ListaOrdenada l = new ListaOrdenada();
+
+        l.isnertarOrdenado(1);
+        l.isnertarOrdenado(4);
+        l.isnertarOrdenado(8);
+        l.isnertarOrdenado(2);
+        l.isnertarOrdenado(6);
+        l.isnertarOrdenado(3);
+
+
     }
 }
