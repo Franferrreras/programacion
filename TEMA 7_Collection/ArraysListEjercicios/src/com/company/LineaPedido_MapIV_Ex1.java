@@ -3,9 +3,9 @@ package com.company;
 public class LineaPedido_MapIV_Ex1 {
 
     private String producto;
-    private int cantidad;
+    private Integer cantidad;
 
-    public LineaPedido_MapIV_Ex1(String producto, int cantidad) {
+    public LineaPedido_MapIV_Ex1(String producto, Integer cantidad) {
         this.producto = producto;
         this.cantidad = cantidad;
     }
@@ -18,11 +18,11 @@ public class LineaPedido_MapIV_Ex1 {
         this.producto = producto;
     }
 
-    public int getCantidad() {
+    public Integer getCantidad() {
         return cantidad;
     }
 
-    public void setCantidad(int cantidad) {
+    public void setCantidad(Integer cantidad) {
         this.cantidad = cantidad;
     }
 

@@ -7,7 +7,7 @@ public class MainMapIVEx1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Map<String,Double> lista_precios = new HashMap<>();
+        Map<String,Double> lista_precios = new HashMap<String, Double>();
         List productos = new ArrayList<LineaPedido_MapIV_Ex1>();
         String producto;
         int cantidad;
@@ -44,8 +44,6 @@ public class MainMapIVEx1 {
 
         System.out.println("---------------------------------");
         System.out.println("TOTAL: "+total);
-
-
     }
 
 

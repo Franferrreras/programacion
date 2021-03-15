@@ -14,9 +14,11 @@ public class Ex3_Collection {
 
         for (int i = 0; i <= 20 ; i++) {
             num.add((int)(Math.random()*10));
+
+
+
         }
         System.out.println(num);
-
 
         Collections.sort(num, new Comparator<Integer>() {
             @Override

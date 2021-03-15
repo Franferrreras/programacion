@@ -60,7 +60,6 @@ public class Ex9_Collection {
     //Actividad 11
     public static Set diferencia(Set<String> c1, Set<String> c2) {
         Set<String> resultado = new HashSet();
-
         for (String i : c1) {
             if (!c2.contains(i)) {
                 resultado.add(i);

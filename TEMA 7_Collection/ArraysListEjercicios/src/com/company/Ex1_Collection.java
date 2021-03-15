@@ -27,6 +27,7 @@ public class Ex1_Collection {
             }
         });
 
+
         /*
         Collections.sort(num, new Comparator<Integer>() {
             @Override

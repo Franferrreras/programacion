@@ -38,10 +38,13 @@ public class MainMapIVEx2 {
                     Integer posicion = productos.indexOf(lp);
                     LineaPedido2_MapIV_Ex2 old = (LineaPedido2_MapIV_Ex2) productos.get(posicion);
                     old.setCantidad(old.getCantidad()+cantidad);
+
                 }
             }
             sc.nextLine();
         }while(!nameproducto.equals("fin"));
+
+        System.out.println(productos);
         
         System.out.println("Introduzca código descuento");
         codDescuento = sc.nextLine();
