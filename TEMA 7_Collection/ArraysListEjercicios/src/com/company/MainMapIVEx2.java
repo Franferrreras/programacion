@@ -32,13 +32,13 @@ public class MainMapIVEx2 {
 
                 LineaPedido2_MapIV_Ex2 lp = new LineaPedido2_MapIV_Ex2(nameproducto,cantidad);
 
-                if (!productos.contains(lp)) {
+                if (!productos.contains(lp.getProducto())) {
                     productos.add(lp);
                 }else {
                     Integer posicion = productos.indexOf(lp);
                     LineaPedido2_MapIV_Ex2 old = (LineaPedido2_MapIV_Ex2) productos.get(posicion);
                     old.setCantidad(old.getCantidad()+cantidad);
-
+                    ((LineaPedido2_MapIV_Ex2) productos.get(posicion)).setCantidad(old.getCantidad());
                 }
             }
             sc.nextLine();

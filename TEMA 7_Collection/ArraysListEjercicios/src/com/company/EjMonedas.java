@@ -23,6 +23,7 @@ public class EjMonedas {
             }
         }
 
+        System.out.println(previa.getMoneda());
         System.out.println(listaMonedas);
     }
 }
