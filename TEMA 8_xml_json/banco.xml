@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Banco>
+    <cuenta cc="214352-623236-6326523j">
+        <cliente>
+            <nombre>DPedro</nombre>
+            <apellido>Carmona Jaime</apellido>
+            <saldo>70890€</saldo>
+        </cliente>
+    </cuenta>
+    <cuenta cc="25325-2352352-436436m">
+        <cliente>
+            <nombre>Hernesto</nombre>
+            <apellido>Valverde</apellido>
+            <saldo>33678€</saldo>
+        </cliente>
+    </cuenta>
+    <cuenta cc="436436-34643643-634643">
+        <cliente>
+            <nombre>Pagani</nombre>
+            <apellido>Altozano</apellido>
+            <saldo>4032€</saldo>
+        </cliente>
+    </cuenta>
+    <cuenta cc="3426362-632636-642626">
+        <cliente>
+            <nombre>Melendesz</nombre>
+            <apellido>De la Vega</apellido>
+            <saldo>7123€</saldo>
+        </cliente>
+    </cuenta>
+    <cuenta cc="735473-7243623-2345236">
+        <cliente>
+            <nombre>Fausto</nombre>
+            <apellido>Bandido</apellido>
+            <saldo>890€</saldo>
+        </cliente>
+    </cuenta>
+</Banco>

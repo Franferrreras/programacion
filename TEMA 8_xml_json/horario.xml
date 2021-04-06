@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Horario>
+    <dia nombre="Lunes">
+        <tramo>Lenguaje de marcas</tramo>
+        <tramo>Base de datos</tramo>
+        <tramo>Programación</tramo>
+    </dia>
+    <dia nombre="Martes">
+        <tramo>ENDES</tramo>
+        <tramo>SI</tramo>
+        <tramo>FOL</tramo>
+    </dia>
+    <dia nombre="Miercoles">
+        <tramo>Base de datos</tramo>
+        <tramo>Endes</tramo>
+        <tramo>Lenguaje de marcas</tramo>
+    </dia>
+    <dia nombre="Jueves">
+        <tramo>Programacion</tramo>
+        <tramo>Endes</tramo>
+        <tramo>Lenguaje de marcas</tramo>
+    </dia>
+    <dia nombre="Viernes">
+        <tramo>SI</tramo>
+        <tramo>Fol</tramo>
+        <tramo>Base de datos</tramo>
+    </dia>
+</Horario>
