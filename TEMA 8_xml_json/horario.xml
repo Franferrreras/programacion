@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Horario>
-    <dia nombre="Lunes">
+    <dia>
         <tramo>Lenguaje de marcas</tramo>
         <tramo>Base de datos</tramo>
         <tramo>Programación</tramo>
