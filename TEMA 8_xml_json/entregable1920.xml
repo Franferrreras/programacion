@@ -1,0 +1,30 @@
+<personas>
+    <!-- Esto es un nodo tipo comentario-->
+    <persona category="alumn">
+        <nombre sexo="M">Fernando</nombre>
+        <edad>14</edad>
+        <dni nacionalidad="española">x2367257</dni>
+    </persona>
+    <persona category="teacher">
+        <nombre sexo="F">María</nombre>
+        <edad>51</edad>
+        <dni nacionalidad="francesa">42542352j</dni>
+    </persona>
+    <persona category="alumn">
+        <nombre sexo="M">Raul</nombre>
+        <edad>22</edad>
+        <dni nacionalidad="española"></dni>
+    </persona>
+    <persona category="alumn">
+        <nombre sexo="F">Nova</nombre>
+        <edad>18</edad>
+        <dni nacionalidad="japonesa"></dni>
+    </persona>
+    <persona category="teacher">
+        <nombre sexo="F">Elena</nombre>
+        <edad>25</edad>//
+        <dni nacionalidad="alemana"></dni>
+    </persona>
+    <!-- otro comentario -->
+
+</personas>

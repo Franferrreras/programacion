@@ -12,10 +12,6 @@ import java.io.IOException;
 
 public class ProcesadorDomPersonas {
 
-
-
-
-
     public void parse(String nomFile) {
 
         try {
@@ -41,7 +37,9 @@ public class ProcesadorDomPersonas {
                     System.out.println("<"+elmt.getTagName()+">");
                     //System.out.println(elmt.getTextContent());
 
+                    //Compruebo si los elementos a su vez tienen hijos
                     if (elmt.hasChildNodes()) {
+                        //Meto los hijos en una lista
                         NodeList listHijos = elmt.getChildNodes();
                         for (int j = 0; j < listHijos.getLength() ; j++) {
                             if (listHijos.item(j).getNodeType() == Node.ELEMENT_NODE) {
