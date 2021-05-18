@@ -44,8 +44,8 @@ public class ProcesadorDomPersonas {
                         for (int j = 0; j < listHijos.getLength() ; j++) {
                             if (listHijos.item(j).getNodeType() == Node.ELEMENT_NODE) {
                                 Element e = (Element) listHijos.item(j);
-                                System.out.println("   <"+e.getTagName()+">");
-                                System.out.println("       "+e.getTextContent());
+                                System.out.println("   <"+e.getTagName()+">"+e.getTextContent()+"<\\"+e.getTagName()+">");
+                                //System.out.print("       "+e.getTextContent());
                             }
                         }
                     }

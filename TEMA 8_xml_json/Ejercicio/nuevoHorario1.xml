@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Horario>
+        
+
+    <!--Empieza la lista de personas-->
+    <dia id="4">
+        <fecha>Chema Durán</fecha>
+        <edad>50</edad>
+    </dia>
+</Horario>
