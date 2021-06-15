@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Cervantes</autor>
+        <editorial>Anaya</editorial>
+        <paginas>500</paginas>
+    <origen>Espania</origen>
+    </libro>
+    <libro>
+        <titulo>La Metamorfosis</titulo>
+        <autor>Frank Kafka</autor>
+        <editorial>Anagrama</editorial>
+        <paginas>250</paginas>
+    <origen>Espania</origen>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>Geoge Orwell</autor>
+        <editorial>Edelvives</editorial>
+        <paginas>125</paginas>
+    <origen>Espania</origen>
+    </libro>
+    <libro>
+        <titulo>Un mundo feliz</titulo>
+        <autor>Aldous Huxley</autor>
+        <editorial>Anaya</editorial>
+        <paginas>200</paginas>
+    <origen>Espania</origen>
+    </libro>
+    <libro>
+        <titulo>La teoría del Shock</titulo>
+        <autor>Naomi Klein</autor>
+        <editorial>Planeta</editorial>
+        <paginas>600</paginas>
+    <origen>Espania</origen>
+    </libro>
+<libro>
+        <titulo>Amanecer Eterno</titulo>
+        <autor>Francisco</autor>
+        <editorial>Castle</editorial>
+        <paginas>2000</paginas>
+        <origen>Espania</origen>
+    </libro>
+</biblioteca>
