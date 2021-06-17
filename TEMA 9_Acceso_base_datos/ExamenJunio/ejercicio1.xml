@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eurocopa>
+    <partido>
+        <local>España</local>
+        <visitante>Suecia</visitante>
+        <goles_local>4</goles_local>
+        <goles_visitante>3</goles_visitante>
+    </partido>
+
+    <partido>
+        <local>Inglaterra</local>
+        <visitante>Escocia</visitante>
+        <goles_local>0</goles_local>
+        <goles_visitante>0</goles_visitante>
+    </partido>
+    <partido>
+        <local>Francia</local>
+        <visitante>Alemania</visitante>
+        <goles_local>1</goles_local>
+        <goles_visitante>3</goles_visitante>
+    </partido>
+    <partido>
+        <local>Croacia</local>
+        <visitante>Portugal</visitante>
+        <goles_local>2</goles_local>
+        <goles_visitante>2</goles_visitante>
+    </partido>
+    <partido>
+        <local>Macedonia</local>
+        <visitante>Suiza</visitante>
+        <goles_local>0</goles_local>
+        <goles_visitante>1</goles_visitante>
+    </partido>
+<partido>
+        <local>Francia</local>
+        <visitante>Italia</visitante>
+        <goles_local>3</goles_local>
+        <goles_visitante>2</goles_visitante>
+    </partido>
+</eurocopa>

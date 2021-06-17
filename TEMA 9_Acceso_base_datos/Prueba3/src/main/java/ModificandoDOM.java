@@ -1,7 +1,4 @@
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -61,6 +58,25 @@ public class ModificandoDOM {
                     Element origen = doc.createElement("origen");
                     origen.setTextContent("Espania");
 
+                    System.out.println("<"+e.getTagName()+">");
+                    if (e.hasChildNodes()) {
+                        NodeList listaHijos = e.getChildNodes();
+                        for (int j = 0; j < listaHijos.getLength() ; j++) {
+                            if (listaHijos.item(j).getNodeType() == Node.ELEMENT_NODE) {
+                                Element h = (Element) listaHijos.item(j);
+                            }
+
+
+                        }
+                    }
+                    if (e.hasAttributes()) {
+                        NamedNodeMap nodeMap = e.getAttributes();
+
+                        for (int j = 0; j < nodeMap.getLength() ; j++) {
+                            Node node = nodeMap.item(j);
+                            Attr atribute = e.getAttributeNode(node.getNodeName());
+                        }
+                    }
                     if (e.getTagName().equals("libro")) {
                         e.appendChild(origen);
                     }
